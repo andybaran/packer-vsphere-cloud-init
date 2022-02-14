@@ -35,7 +35,7 @@ This repo contains templates that are specifically configured to be built with H
 5. Edit the `vsphere_folder` variable on line 18 of [templates/vsphere.pkrvars.hcl](https://github.com/kalenarndt/packer-vsphere-cloud-init/blob/7a69eb201ba391d7d80e0baa9cd3f9f62877f41f/templates/vsphere.pkrvars.hcl#L18) If these folders don't exist, Packer will create them.
 
 #### Virtual Machine Settings
-1. Edit the `vsphere_vm_version` variable on line 22 of [templates/vsphere.pkrvars.hcl](https://github.com/kalenarndt/packer-vsphere-cloud-init/blob/7a69eb201ba391d7d80e0baa9cd3f9f62877f41f/templates/vsphere.pkrvars.hcl#L22) to match the version your environment supports
+1. Edit the `vsphere_vm_version` variable on line 22 of [templates/vsphere.pkrvars.hcl](https://github.com/kalenarndt/packer-vsphere-cloud-init/blob/7a69eb201ba391d7d80e0baa9cd3f9f62877f41f/templates/vsphere.pkrvars.hcl#L22) to match the [version your environment supports](https://kb.vmware.com/s/article/2007240).
 
 #### Run
 1. Run `build-ubuntu-20.sh`
